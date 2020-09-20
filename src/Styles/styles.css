@@ -1,0 +1,60 @@
+
+.white{
+    background-color: white;
+    -webkit-box-shadow: 2px 2px 10px -3px rgba(52, 136, 206, 0.75);
+    -moz-box-shadow: 2px 2px 10px -3px rgba(52, 136, 206, 0.75);
+    box-shadow: 2px 2px 10px -3px rgba(52, 136, 206, 0.75);
+}
+.blue{
+    color:#3385ff;
+}
+.gray{
+    background-color: white;
+    margin:5px 2px;
+    -webkit-box-shadow: 2px 2px 10px -3px gray;
+    -moz-box-shadow: 2px 2px 10px -3px gray;
+    box-shadow: 2px 2px 10px -3px gray;
+}
+.gray-slot{
+    background-color: white;
+    /* margin:5px 2px; */
+}
+.landing{
+    -webkit-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 13px 0px rgba(0,0,0,0.75);
+
+}
+.head{
+   
+    -webkit-box-shadow: 2px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 12px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 12px 0px rgba(0,0,0,0.75);
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+.desktop{
+    width:50%;
+    height:400px;
+    overflow-y:auto;
+    margin:auto;
+}
+.timetable{
+    transform: scale(0.7, 0.6);
+    margin-top: -15%;
+}
+  @media only screen and (max-width: 768px){
+      .desktop{
+          width:100%
+      }
+      
+  }
